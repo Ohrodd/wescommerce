@@ -11,9 +11,9 @@ function App() {
       {<Navbar/>}
       <div className='contentgeneral'>
         <Routes>
-          <Route path='ohrodd.github.io/wescommerce/' element={<Principal/>} />
-          <Route path='ohrodd.github.io/wescommerce/login' element={<Login/>} />
-          <Route path='ohrodd.github.io/wescommerce/register' element={<Register/>}/>
+          <Route path='/' element={<Principal/>} />
+          <Route path='/login' element={<Login/>} />
+          <Route path='/register' element={<Register/>}/>
         </Routes>
       </div>
     </section>

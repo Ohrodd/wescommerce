@@ -12,7 +12,7 @@ function Navbar() {
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                   <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="ohrodd.github.io/wescommerce/">Home</a>
+                    <a className="nav-link active" aria-current="page" href="/">Home</a>
                   </li>
                   <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -50,10 +50,10 @@ function Navbar() {
                 </ul>
                 <ul className="navbar-nav mb-2 mb-lg-0">
                 <li className="nav-item">
-                    <a className="nav-link" href="ohrodd.github.io/wescommerce/login">Log In</a>
+                    <a className="nav-link" href="/login">Log In</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="ohrodd.github.io/wescommerce/register">Register</a>
+                    <a className="nav-link" href="/register">Register</a>
                   </li>
                 </ul>
               </div>
