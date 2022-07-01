@@ -1,4 +1,5 @@
 import Logo from "../images/logo.png";
+import { Link } from 'react-router-dom';
 
 function Navbar() {
     return(
@@ -12,48 +13,48 @@ function Navbar() {
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                   <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="/wescommerce/">Home</a>
+                    <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                   </li>
                   <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Location
-                    </a>
+                    </Link>
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a className="dropdown-item" href="#">Zone 1</a></li>
+                      <li><Link className="dropdown-item" to="#">Zone 1</Link></li>
                       <li><hr className="dropdown-divider"/></li>
-                      <li><a className="dropdown-item" href="#">Zone 9</a></li>
+                      <li><Link className="dropdown-item" to="#">Zone 9</Link></li>
                       <li><hr className="dropdown-divider"/></li>
-                      <li><a className="dropdown-item" href="#">Zone 10</a></li>
+                      <li><Link className="dropdown-item" to="#">Zone 10</Link></li>
                       <li><hr className="dropdown-divider"/></li>
-                      <li><a className="dropdown-item" href="#">Zone 13</a></li>
+                      <li><Link className="dropdown-item" to="#">Zone 13</Link></li>
                     </ul>
                   </li>
                   <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Products
-                    </a>
+                    </Link>
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a className="dropdown-item" href="#">Action</a></li>
+                      <li><Link className="dropdown-item" to="#">Action</Link></li>
                       <li><hr className="dropdown-divider"/></li>
-                      <li><a className="dropdown-item" href="#">Another action</a></li>
+                      <li><Link className="dropdown-item" to="#">Another action</Link></li>
                       <li><hr className="dropdown-divider"/></li>
-                      <li><a className="dropdown-item" href="#">Something else here</a></li>
-                      <li><a className="dropdown-item" href="#">Action</a></li>
+                      <li><Link className="dropdown-item" to="#">Something else here</Link></li>
+                      <li><Link className="dropdown-item" to="#">Action</Link></li>
                       <li><hr className="dropdown-divider"/></li>
-                      <li><a className="dropdown-item" href="#">Action</a></li>
+                      <li><Link className="dropdown-item" to="#">Action</Link></li>
                       <li><hr className="dropdown-divider"/></li>
-                      <li><a className="dropdown-item" href="#">Action</a></li>
+                      <li><Link className="dropdown-item" to="#">Action</Link></li>
                       <li><hr className="dropdown-divider"/></li>
-                      <li><a className="dropdown-item" href="#">Action</a></li>
+                      <li><Link className="dropdown-item" to="#">Action</Link></li>
                     </ul>
                   </li>
                 </ul>
                 <ul className="navbar-nav mb-2 mb-lg-0">
                 <li className="nav-item">
-                    <a className="nav-link" href="/wescommerce/login">Log In</a>
+                    <Link className="nav-link" to="/login">Log In</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/wescommerce/register">Register</a>
+                    <Link className="nav-link" to="/register">Register</Link>
                   </li>
                 </ul>
               </div>
