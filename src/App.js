@@ -11,9 +11,9 @@ function App() {
       {<Navbar/>}
       <div className='contentgeneral'>
         <Routes>
-          <Route path='/' element={<Principal/>} />
-          <Route path='/login' element={<Login/>} />
-          <Route path='/register' element={<Register/>}/>
+          <Route path='/wescommerce/' element={<Principal/>} />
+          <Route path='/wescommerce/login' element={<Login/>} />
+          <Route path='/wescommerce/register' element={<Register/>}/>
         </Routes>
       </div>
     </section>
