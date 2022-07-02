@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/wescommerce/static/css/main.4a7884d8.css",
-    "main.js": "/wescommerce/static/js/main.f816bfe5.js",
+    "main.css": "/wescommerce/static/css/main.5dd788df.css",
+    "main.js": "/wescommerce/static/js/main.dbf8e3e6.js",
     "static/media/logo.png": "/wescommerce/static/media/logo.70576d8a0a72dc7381a7.png",
     "index.html": "/wescommerce/index.html",
-    "main.4a7884d8.css.map": "/wescommerce/static/css/main.4a7884d8.css.map",
-    "main.f816bfe5.js.map": "/wescommerce/static/js/main.f816bfe5.js.map"
+    "main.5dd788df.css.map": "/wescommerce/static/css/main.5dd788df.css.map",
+    "main.dbf8e3e6.js.map": "/wescommerce/static/js/main.dbf8e3e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a7884d8.css",
-    "static/js/main.f816bfe5.js"
+    "static/css/main.5dd788df.css",
+    "static/js/main.dbf8e3e6.js"
   ]
 }
