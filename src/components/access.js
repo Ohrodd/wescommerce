@@ -1,4 +1,6 @@
 import logo from '../images/logo.png';
+import { Link } from 'react-router-dom';
+
 
 export function Login(){
     return(
@@ -11,7 +13,7 @@ export function Login(){
                   Please enter your user.
                   </div>
               </div>
-              
+              button
               <div className="mb-3">
                   <input type="password" className="form-control is-invalid" id="validationPassword" placeholder="Required validated password " required/>
                   <div className="invalid-feedback">
@@ -81,13 +83,15 @@ export function Register(){
                 <div className="mb-3">
                     <button className="btn colorButton" type="submit">Check in!</button>
                 </div>
-  
-                <div className="mb-3">
-                  <label htmlFor="validationInput" className="display-8">Do you have an account?</label>
-                  <input type="submit" className="btn colorButton" id="validationTextarea" value="Log In"/>
-                </div>
               </div>
             </form>
+            <div className="mb-3 contenidoCentrado">
+                <label htmlFor="validationInput" className="display-8">Do you have an account?</label>
+                <br/>
+                <Link className='contenidoCentrado' to="/login">
+                  <input type="submit" className="btn colorButton" id="botonLogin" value="Log In"/>
+                </Link>
+            </div>
         </div>
     );
 }
