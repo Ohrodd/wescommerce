@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name_product": "Celular Samsung A23 4GB 64GB 6.6plg 50MP",
+    "price": "Q1,914.00",
+    "color": "Blanco",
+    "imagen": "https://www.intelaf.com/images/productos/gran/CEL-SAM-A23464A.jpg"
+  },
+  {
+    "id": 2,
+    "name_product": "Celular Samsung A23 4GB 128GB 6.6plg 50MP",
+    "price": "Q2,177.00",
+    "color": "Negro",
+    "imagen": "https://www.intelaf.com/images/productos/gran/CEL-SAM-A23464N.jpg"
+  },
+  {
+    "id": 3,
+    "name_product": "Celular Samsung A52 Octacore 6GB 64GB 6.6plg 50MP",
+    "price": "Q2,414.00",
+    "color": "Violeta",
+    "imagen": "https://www.intelaf.com/images/productos/gran/CEL-SAM-S21F25L.jpg"
+  },
+  {
+    "id": 4,
+    "name_product": "Celular Samsung A52 Octacore 6GB 128GB 6.6plg 50MP",
+    "price": "Q2,564.00",
+    "color": "Celeste",
+    "imagen": "https://www.intelaf.com/images/productos/gran/CEL-SAM-A52128C.jpg"
+  },
+  {
+    "id": 5,
+    "name_product": "Celular Samsung A33 6GB 18GB 6.7plg 50MP",
+    "price": "Q3,048.00",
+    "color": "Azul",
+    "imagen": "https://www.intelaf.com/images/productos/gran/CEL-SAM-A23128A.jpg"
+  },
+  {
+    "id": 6,
+    "name_product": "Celular Samsung A33 6GB 128GB 6.4plg 50MP",
+    "price": "Q3,048.00",
+    "color": "Blanco",
+    "imagen": "https://www.intelaf.com/images/productos/gran/CEL-SAM-A23128B.jpg"
+  }
+]
